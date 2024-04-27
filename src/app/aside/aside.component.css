@@ -1,0 +1,28 @@
+.aside{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.aside > div{
+    width: 300px;
+    height: 300px;
+    background: url("../../assets/img/perfilemain.jpeg") no-repeat center;
+    background-size: cover;
+    transition:0.4s ease-in-out .3s;
+}
+
+.effectsimg{
+    cursor: pointer;
+}
+
+.effectsimg:hover{
+    z-index: -100;
+    transform: scale(1.0500);
+    border-radius: 25px;
+}
+
+

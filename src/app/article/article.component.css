@@ -1,0 +1,15 @@
+.article{
+    position: relative;
+    border: 1PX solid black;
+    height: 300px;
+}
+
+.gamesprop{
+    width: auto;
+    border: 1px solid black;
+}
+
+.gamesprop .one{
+    border: 1px solid black;
+    width: 150px;
+}

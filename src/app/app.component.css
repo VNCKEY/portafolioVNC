@@ -1,0 +1,143 @@
+/*-----------------------------HEADER-----------------------------*/
+
+.HA-Info{
+    height: 100px;
+}
+.HA-Nav{
+    position: sticky;
+    top: 0;
+    height: 2em;
+    background-image:linear-gradient(150deg,#40c5e3, #40e2ca,#4ce29c);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HA-Nav > nav > ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+}
+
+.HA-Nav > nav > ul > li{
+    padding-right: 15px;
+}
+
+.HA-Nav > nav > ul > li:nth-last-child(1){
+    padding-right: 0;
+}
+
+header{
+    color: #991212;
+    /* display: inline-block;
+    text-align: center;
+    text-decoration: overline #ffffff 1.5px;
+    text-shadow: -2px 2px 2px #c9c9c7,-4px 2px 4px #403f3fe4; */
+}
+
+
+
+.header-nav-a:hover{
+    animation-name: stylenav;
+    animation-duration: 2s;
+}
+
+@keyframes stylenav {
+    from{
+        color: var(--white);
+        /* text-decoration:underline #ffffff 2px;  */
+    }
+    to{
+        color: var(--black);
+        /* text-decoration:underline #000000 2px;  */
+    }
+}
+
+/*XAMPLE
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+*/
+
+
+
+
+
+/* -----------------------------FIN DEL HEADER-----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px 10px;
+}
+
+.grid-item3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.wtf{
+    position: fixed;
+    right:  10px;
+    bottom: 10px;
+    /*background-image: radial-gradient(circle,red,yellow,green);*/
+    background-image: conic-gradient(from 90deg, #5ee217, rgb(216, 193, 42), rgb(131, 216, 27));
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation:rotatelink 4s ease 0.7s 2 alternate;
+
+    /*
+    background-color: rgb(25, 170, 76);
+    */
+    
+}
+
+
+@keyframes rotatelink {
+    0%{
+        transform: translate(0px,0px)
+    }
+    25%{
+        transform: translate(-200px,0px)
+    }
+    50%{
+        transform: translate(-200px,-200px)
+    }
+    75%{
+        transform: translate(0px,-200px)
+    }
+}
