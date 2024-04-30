@@ -1,0 +1,15 @@
+<svg  width="260" height="110" xmlns="http://www.w3.org/2000/svg">
+  <rect width="250" height="100" x="10" y="10" rx="50"
+  style="  
+  	fill:#40e2ca;
+    "
+  />
+  <rect width="230" height="80" x="20" y="20" rx="40"
+  style="  
+  	fill:red;
+    "
+  />
+  <circle r="30" cx="60" cy="60" fill="black"/>
+  <circle r="30" cx="210" cy="60" fill="white"/>
+  Sorry, your browser does not support inline SVG.  
+</svg>
